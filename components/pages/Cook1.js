@@ -60,7 +60,7 @@ return (
             borderRadius: 20,
             marginRight: 10,
           }}
-          source={require('../../assets/week1/f.jpg')}
+          source={require('../../assets/week1/tom-yum-recipe.webp')}
           />
          
       </ScrollView>

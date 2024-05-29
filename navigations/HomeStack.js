@@ -31,10 +31,8 @@ export default function HomeStack() {
                 }}
             />
           
+            </Tab.Navigator>
             
-
-
-        </Tab.Navigator>
     );
 }
 

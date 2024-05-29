@@ -8,16 +8,16 @@ export default function Cook3() {
   return (
     <View style={{ margin: 20, padding: 10, marginTop: -10 }}>
       <View style={{ flexDirection: "row", marginTop: 10 }}>
-        <MyIcon title="Thai" name="building" size={30} color="black"onPress={()=>{ navigation.navigate("Home")}}  />
-        <MyIcon title="India" name="map-marker" size={30} color="white" backgroundColor='pink' />
-        <MyIcon title="Japan" name="car" size={30} color="white" backgroundColor='pink'/>
-        <MyIcon title="Korean" name="plane" size={30} color="white" backgroundColor='pink'/>
+        <MyIcon title="Thai" name="bug" size={30} color="orange"onPress={()=>{ navigation.navigate("Home")}}  />
+        <MyIcon title="India" name="eye" size={30} color="orange" backgroundColor='pink' onPress={()=>{ navigation.navigate("Indiamenu")}}/>
+        <MyIcon title="Japan" name="car" size={30} color="orange" backgroundColor='pink'onPress={()=>{ navigation.navigate("Japanmenu")}}/>
+        <MyIcon title="Korean" name="cloud" size={30} color="orange" backgroundColor='pink'/>
       </View>
       {/* View ก้อนที่ 3 */}
       <View style={{ flexDirection: "row", marginTop: 10 }}>
-        <MyIcon title="Italy" name="ship" size={30} color="white"backgroundColor='pink' />
-        <MyIcon title="Drink" name="bus" size={30} color="white"backgroundColor='pink' />
-        <MyIcon title="Dessert" name="star" size={30} color="orange" backgroundColor='pink'/>
+        <MyIcon title="Italy" name="building" size={30} color="orange"backgroundColor='pink' />
+        <MyIcon title="Drink" name="heart" size={30} color="orange"backgroundColor='pink' />
+        <MyIcon title="Dessert" name="camera" size={30} color="orange" backgroundColor='pink'/>
         <MyIcon title="More" name="ellipsis-h" size={30} color="orange" backgroundColor='pink'/>
       </View>
     </View>
