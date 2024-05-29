@@ -25,20 +25,12 @@ export default function HomeStack() {
                 name="Todolist"
                 component={TodoList}
                 options={{
-                    tabBarLabel: "ถูกใจ",
+                    tabBarLabel: "สิ่งที่อยากทำ",
                     tabBarIcon: ({ color, size }) => (<FontAwesome name="list" color={color} size={size} />),
                     headerShown: false,
                 }}
             />
-             <Tab.Screen
-                name="Menuscreens"
-                component={Menuscreens}
-                options={{
-                    tabBarLabel: "ถูกใจ",
-                    tabBarIcon: ({ color, size }) => (<FontAwesome name="heart" color={color} size={size} />),
-                    headerShown: false,
-                }}
-            />
+          
             
 
 

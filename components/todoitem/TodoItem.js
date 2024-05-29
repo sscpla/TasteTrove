@@ -16,7 +16,7 @@ export default function TodoItem(props) {
                 <FontAwesome name={ props.item.completed ? "check-square" : "square-o" } size={23} />                               
             </TouchableOpacity>
             <View style={{ flex: 12 }}>                                  
-                <TextInput value={props.item.title} placeholder="What's in your mind? " onChangeText={(new_title) => props.onUpdate(new_title, props.item.id) }  />                                  
+                <TextInput value={props.item.title} placeholder="What do you want to cook? " onChangeText={(new_title) => props.onUpdate(new_title, props.item.id) }  />                                  
             </View>
             <TouchableOpacity  style={{  flex : 1 }} onPress={()=>props.onDelete(props.item.id) } >
                 <FontAwesome name="trash" size={23} />
